@@ -29,14 +29,17 @@
 
 ## Gallery
 
-*All three of them. That's it. That's the gallery — see [`src/images/`](https://github.com/ExTrakf/.github/tree/main/src/images)*
+*All four of them. That's it. That's the gallery — see [`src/images/`](https://github.com/ExTrakf/.github/tree/main/src/images)*
 
 <table align="center">
   <tbody>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/1.jpg" width="240" alt="1" /></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/2.jpg" width="240" alt="2" /></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/3.jpg" width="240" alt="3" /></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/1.jpg" width="260" alt="1" /></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/2.jpg" width="260" alt="2" /></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/3.jpg" width="260" alt="3" /></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/4.jpg" width="260" alt="4" /></td>
     </tr>
   </tbody>
 </table>
@@ -47,6 +50,7 @@
 
 | Repository | Description |
 |---|---|
+| [ExTrakf/TomatoJuice](https://github.com/ExTrakf/TomatoJuice) | Fanqie (番茄) novel downloader — FastAPI service with device pool & request signing |
 | [ExTrakf/.github](https://github.com/ExTrakf/.github) | Org profile and community health files. This very page. |
 
 More projects coming soon.
