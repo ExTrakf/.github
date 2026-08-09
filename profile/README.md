@@ -8,11 +8,12 @@
   设计约束: 无 emoji，icon 用扁平化（Font Awesome solid / Simple Icons / shields flat）
 -->
 
-<div align="center">
-<p><code>
-$ whoami<br>extrakf<br>$ cat README.md | head -1<br>ExTrakf is an organization with many lolicons.
-</code></p>
-</div>
+```
+$ whoami
+extrakf
+$ cat README.md | head -1
+ExTrakf is an organization with many lolicons.
+```
 
 <p align="center">
   <img src="https://cdn.simpleicons.org/github/6e7681" width="18" alt="github" />
@@ -31,21 +32,17 @@ $ whoami<br>extrakf<br>$ cat README.md | head -1<br>ExTrakf is an organization w
 
 ## Gallery
 
-*All four of them. That's it. That's the gallery — see [`src/images/`](https://github.com/ExTrakf/.github/tree/main/src/images)*
+*All three of them. That's it. That's the gallery — see [`src/images/`](https://github.com/ExTrakf/.github/tree/main/src/images)*
 
 <table align="center">
   <tbody>
     <tr>
-      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/1.jpg" width="220" alt="1" /></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/2.jpg" width="220" alt="2" /></td>
-      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/3.jpg" width="220" alt="3" /></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/1.jpg" width="240" alt="1" /></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/2.jpg" width="240" alt="2" /></td>
+      <td align="center"><img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/3.jpg" width="240" alt="3" /></td>
     </tr>
   </tbody>
 </table>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/images/4.jpg" width="240" alt="4" />
-</p>
 
 ---
 
