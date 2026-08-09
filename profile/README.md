@@ -8,12 +8,9 @@
   设计约束: 无 emoji，icon 用扁平化（Font Awesome solid / Simple Icons / shields flat）
 -->
 
-```
-$ whoami
-extrakf
-$ cat README.md | head -1
-ExTrakf is an organization with many lolicons.
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/terminal.svg" alt="terminal" />
+</p>
 
 <p align="center">
   <img src="https://cdn.simpleicons.org/github/6e7681" width="18" alt="github" />
