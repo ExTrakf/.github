@@ -51,7 +51,6 @@
 | Repository | Description |
 |---|---|
 | [ExTrakf/TomatoJuice](https://github.com/ExTrakf/TomatoJuice) | Fanqie (番茄) novel downloader — FastAPI service with device pool & request signing |
-| [ExTrakf/.github](https://github.com/ExTrakf/.github) | Org profile and community health files. This very page. |
 
 More projects coming soon.
 
