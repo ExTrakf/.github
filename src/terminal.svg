@@ -1,20 +1,235 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="178" viewBox="0 0 640 178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
-  <!-- window -->
-  <rect width="640" height="178" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-  <!-- title bar -->
-  <path d="M0 8 A8 8 0 0 1 8 0 H632 A8 8 0 0 1 640 8 V34 H0 Z" fill="#161b22"/>
-  <rect y="33" width="640" height="1" fill="#30363d"/>
-  <!-- traffic dots -->
-  <circle cx="26" cy="17.5" r="6" fill="#ff5f56"/>
-  <circle cx="46" cy="17.5" r="6" fill="#ffbd2e"/>
-  <circle cx="66" cy="17.5" r="6" fill="#27c93f"/>
-  <!-- title -->
-  <text x="86" y="21.5" font-size="12" fill="#8b949e">extrakf — bash</text>
-  <!-- session -->
-  <text x="20" y="62" font-size="14" fill="#3fb950">$</text>
-  <text x="38" y="62" font-size="14" fill="#c9d1d9">whoami</text>
-  <text x="20" y="90" font-size="14" fill="#c9d1d9">extrakf</text>
-  <text x="20" y="118" font-size="14" fill="#3fb950">$</text>
-  <text x="38" y="118" font-size="14" fill="#c9d1d9">cat README.md | head -1</text>
-  <text x="20" y="146" font-size="14" fill="#c9d1d9">ExTrakf is an organization with many lolicons.</text>
+<svg width="1600" height="625" viewBox="0 0 1600 625"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+    <!-- 主窗口背景 -->
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#211522"/>
+        <stop offset="100%" stop-color="#100914"/>
+    </linearGradient>
+
+    <!-- 樱花渐变 -->
+    <linearGradient id="sakura" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#ffd6ea"/>
+        <stop offset="35%" stop-color="#ff8fc7"/>
+        <stop offset="70%" stop-color="#ff5fa2"/>
+        <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- 标题栏渐变 -->
+    <linearGradient id="titleBar" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3a1c32"/>
+        <stop offset="50%" stop-color="#5a2347"/>
+        <stop offset="100%" stop-color="#32172e"/>
+    </linearGradient>
+
+    <!-- 外发光 -->
+    <filter id="pinkGlow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+    <!-- 阴影 -->
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+</defs>
+
+
+<!-- 整体放大 1.25 倍：画布 1280×500 → 1600×625。下方所有坐标按 1280×500 设计空间书写 -->
+<g transform="scale(1.25)">
+
+
+<!-- 阴影 -->
+<rect
+    x="100"
+    y="70"
+    width="1080"
+    height="360"
+    rx="30"
+    fill="#000000"
+    opacity="0.5"
+    filter="url(#shadow)"
+/>
+
+
+<!-- 粉色外发光 -->
+<rect
+    x="90"
+    y="60"
+    width="1100"
+    height="380"
+    rx="30"
+    fill="none"
+    stroke="#ff72b6"
+    stroke-width="12"
+    opacity="0.35"
+    filter="url(#pinkGlow)"
+/>
+
+
+<!-- 主窗口 -->
+<rect
+    x="90"
+    y="60"
+    width="1100"
+    height="380"
+    rx="30"
+    fill="url(#terminalBg)"
+    stroke="url(#sakura)"
+    stroke-width="2"
+/>
+
+
+<!-- 标题栏 -->
+<rect
+    x="91"
+    y="61"
+    width="1098"
+    height="68"
+    rx="29"
+    fill="url(#titleBar)"
+/>
+
+<!-- 修正底部圆角 -->
+<rect
+    x="91"
+    y="95"
+    width="1098"
+    height="35"
+    fill="url(#titleBar)"
+/>
+
+
+<!-- 标题栏顶部高光 -->
+<rect
+    x="128"
+    y="62"
+    width="1024"
+    height="1"
+    fill="#ffd6ea"
+    opacity="0.6"
+/>
+
+
+<!-- 标题栏分割线 -->
+<rect
+    x="91"
+    y="129"
+    width="1098"
+    height="1"
+    fill="#ff72b6"
+    opacity="0.35"
+/>
+
+
+<!-- 三个按钮 -->
+<circle cx="147" cy="95" r="10" fill="#ff5f87"/>
+<circle cx="192" cy="95" r="10" fill="#ffc857"/>
+<circle cx="237" cy="95" r="10" fill="#6ee7a8"/>
+
+
+<!-- 标题 -->
+<text
+    x="640"
+    y="102"
+    text-anchor="middle"
+    fill="url(#sakura)"
+    stroke="#ffd6ea"
+    stroke-width="0.3"
+    font-size="20"
+    font-weight="600"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    ExTrakf — Bash
+</text>
+
+
+<!-- 第一条命令 -->
+<text
+    x="154"
+    y="180"
+    fill="url(#sakura)"
+    font-size="24"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    $
+</text>
+
+<text
+    x="205"
+    y="180"
+    fill="#f8f1f5"
+    font-size="24"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    whoami
+</text>
+
+
+<!-- 第一条输出 -->
+<text
+    x="154"
+    y="225"
+    fill="#ffffff"
+    font-size="24"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    ExTrakf
+</text>
+
+
+<!-- 第二条命令 -->
+<text
+    x="154"
+    y="295"
+    fill="url(#sakura)"
+    font-size="24"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    $
+</text>
+
+<text
+    x="205"
+    y="295"
+    fill="#f8f1f5"
+    font-size="24"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    cat README.md | head -1
+</text>
+
+
+<!-- 第二条输出 -->
+<text
+    x="154"
+    y="345"
+    fill="#ffd9ea"
+    font-size="22"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    ExTrakf is an organization with many lolicons
+</text>
+
+
+<!-- 自定义结束符 -->
+<text
+    x="154"
+    y="400"
+    fill="url(#sakura)"
+    font-size="28"
+    font-family="JetBrains Mono, Fira Code, monospace">
+    ~\(≥▽≤)/~
+</text>
+
+
+<!-- 底部微光 -->
+<rect
+    x="128"
+    y="420"
+    width="1024"
+    height="1"
+    fill="#ff9acb"
+    opacity="0.25"
+/>
+
+
+</g>
+
+
 </svg>

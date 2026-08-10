@@ -9,7 +9,7 @@
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ExTrakf/.github/main/src/terminal.svg" alt="terminal" />
+  <img src="https://raw.githubusercontent.com/ExTrakf/.github/assets-v2/src/terminal.svg" alt="terminal" />
 </p>
 
 <p align="center">
